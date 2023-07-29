@@ -8,12 +8,11 @@ Eg:- Telegarph, Channel ID, Image editor etc... """
 ╔════❰ 𝙼𝚄𝙻𝚃𝙸 𝙱𝙾𝚃 ❱═❍
 ║╭━━━━━━━━━━━━━━━➣
 ║┣⪼🤖ᴍʏ ɴᴀᴍᴇ : {bot}
-║┣⪼👦ᴅᴇᴠ 1 : <a href=https://t.me/about_jeol>ᴊᴇᴏʟ</a>
-║┣⪼👨‍💻ᴅᴇᴠ 2 : <a href=https://t.me/mr_MKN>ᴍʀ.ᴍᴋɴ ᴛɢ</a>
-║┣⪼❣️sᴏᴜʀᴄᴇ ᴄᴏᴅ : <a href=https://github.com/Itz-JEOL/TG-MULTI-BOT>ᴛɢ-ᴍᴜʟᴛɪ-ʙᴏᴛ</a>
+║┣⪼👦ᴅᴇᴠ 1 : <a href=https://t.me/Prime_Hritu>ᴘʀɪᴍᴇ ʜʀɪᴛᴜ</a>
+║┣⪼👨‍💻ᴅᴇᴠ 2 : <a href=https://t.me/prime_venom>ᴘʀɪᴍᴇ ᴠᴇɴᴏᴍ</a>
 ║┣⪼🗣️ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ3</a>
 ║┣⪼📚ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a> 
-║┣⪼🗒️ᴠᴇʀsɪᴏɴ : 𝙼𝚄𝙻𝚃𝙸 𝙱𝙾𝚃 v3.0.1 
+║┣⪼🗒️ᴠᴇʀsɪᴏɴ : 𝙼𝚄𝙻𝚃𝙸 𝙱𝙾𝚃 v1.0.0
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍ """
 
@@ -29,9 +28,7 @@ Eg:- Telegarph, Channel ID, Image editor etc... """
 media = [photo, video, audio, documents, sticker]"""
    
     FUN = """<b><u>JUST TEST THIS COMMANDS 😉</u></b>
-
-◉ /runs         
-◉ /ikka      
+  
 ◉ /dice     
 ◉ /arrow    
 ◉ /goal    
@@ -83,7 +80,7 @@ To Make Square Logo -  /logosq Your Name
 
 ♻️ Example:
 /logo BETA
-/logosq MKN  """
+/logosq BOT  """
 
     YTDL = """<b>𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
 
@@ -116,7 +113,7 @@ Translate text to speech
 • These commands works on both pm and group.
 • this can translate texts to 200+ languages."""
 
-    SOURCE = """[Github](https://github.com/Itz-JEOL/TG-MULTI-BOT) | [Updates](t.me/beta_botz)
+    SOURCE = """[ᴘʀɪᴍᴇ ʜʀɪᴛᴜ](https://t.me/Prime_Hritu) | [ᴘʀɪᴍᴇ ᴠᴇɴᴏᴍ](t.me/Prime_Venom)
 ```----------------
 | Contributors |
 ----------------```
