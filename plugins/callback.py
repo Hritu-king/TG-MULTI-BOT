@@ -199,16 +199,16 @@ async def callback(client: Client, query: CallbackQuery):
            list_of_users += (f"**{count}.** [{user['login']}]({user['html_url']})\n")       
            count += 1
        buttons = [[
-           InlineKeyboardButton("👨‍💻 𝙳𝙴𝚅 1", url="https://t.me/ABOUT_JEOL"),
-           InlineKeyboardButton("👨‍💻 𝙳𝙴𝚅 2", url="https://t.me/Mr_MKN")
+           InlineKeyboardButton("👨‍💻 𝙳𝙴𝚅 1", url="https://t.me/Prime_Hritu"),
+           InlineKeyboardButton("👨‍💻 𝙳𝙴𝚅 2", url="https://t.me/Prime_Venom")
            ],[
-           InlineKeyboardButton("❣️ 𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄 ❣️", url="https://github.com/Itz-JEOL/TG-MULTI-BOT"),
+           InlineKeyboardButton("🇮🇳 Updates", url="https://t.me/Private_Bots"),
            ],[
            InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="start"),
            InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data="close")
        ]]               
        await query.message.edit(
-           text=tg.SOURCE.format(dev=list_of_users),
+           text=tg.SOURCE.format(dev="https://t.me/Prime_Hritu"),
            reply_markup=InlineKeyboardMarkup(buttons),
            disable_web_page_preview = True,
            parse_mode=enums.ParseMode.MARKDOWN
