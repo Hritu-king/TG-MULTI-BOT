@@ -37,22 +37,16 @@ async def callback(client: Client, query: CallbackQuery):
         buttons = [[                           
             InlineKeyboardButton('🍁 ɪɴꜰᴏ & ɪᴅ 🍁', callback_data='info')
             ],[
-            InlineKeyboardButton('ʟᴏɢᴏ ᴍᴀᴋᴇʀ', callback_data='logomake'),            
+            InlineKeyboardButton('ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ', callback_data='tts'),            
             InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴩʜ', callback_data='tgraph')
             ],[
-            InlineKeyboardButton('ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ', callback_data='tts'),
+            InlineKeyboardButton('ᴩʜᴏᴛᴏ ᴛᴏᴏʟ', callback_data='phediter'),
             InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ ᴅʟ', callback_data='ytdl')
             ],[
-            InlineKeyboardButton('ᴩʜᴏᴛᴏ ᴛᴏᴏʟ', callback_data='phediter'),
-            InlineKeyboardButton('ᴩᴀꜱᴛᴇ ᴄᴏᴅᴇ', callback_data='paster')
-            ],[
-            InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ ᴛᴏᴏʟ', callback_data='stickertool'),
+            InlineKeyboardButton('ꜰᴜɴ ɢᴀᴍᴇ', callback_data='fun'),
             InlineKeyboardButton('ꜰᴏɴᴛ ꜱᴛyʟᴇ', callback_data='fontstyle')            
             ],[
-            InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carben'),
-            InlineKeyboardButton('ꜰᴜɴ ɢᴀᴍᴇ', callback_data='fun')                      
-            ],[
-            InlineKeyboardButton('❤️‍🔥 ꜱᴏᴜʀᴄᴇ', callback_data='source'),
+            InlineKeyboardButton('❤️‍🔥 ᴅᴇᴠᴇʟᴏᴘᴇʀs', callback_data='source'),
             InlineKeyboardButton('📡 ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
             InlineKeyboardButton('⏮️ ʙᴀᴄᴋ', callback_data='start'),           
