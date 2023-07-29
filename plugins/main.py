@@ -9,15 +9,18 @@ from helper.text import txt
 async def start_message(bot, message):
     await add_user(bot, message)    
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton("ꜱᴜᴩᴩᴏʀᴛ", url="https://t.me/Privates_Chats"),
-        InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/Private_Bots")
+        InlineKeyboardButton("🍁 ꜱᴜᴩᴩᴏʀᴛ", url="https://t.me/BETA_SUPPORT"),
+        InlineKeyboardButton("📯 ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/Beta_BoTZ")
         ],[            
-        InlineKeyboardButton("ʜᴇʟᴩ", callback_data="help"),
-        InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about") 
+        InlineKeyboardButton("ℹ️ ʜᴇʟᴩ", callback_data="help"),
+        InlineKeyboardButton("📡 ᴀʙᴏᴜᴛ", callback_data="about") 
     ]])
         
-    await message.reply_text(text=txt.STAT.format(message.from_user.mention), reply_markup=button, disable_web_page_preview=True)
-        
+    if PICS:
+        await message.reply_photo(photo=random.choice(PICS), caption=txt.STAT.format(message.from_user.mention), reply_markup=button)
+    else:
+        await message.reply_text(text=txt.STAT.format(message.from_user.mention), reply_markup=button, disable_web_page_preview=True)
+       
                                               
 @Client.on_message(filters.command(["id", "info"]))
 async def media_info(bot, m): 
