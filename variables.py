@@ -18,13 +18,13 @@ DB_URL = os.environ.get("DB_URL", "")
 
 DB_NAME = os.environ.get("DB_NAME", "tg-multi-bot")
 
-RemoveBG_API = os.environ.get("RemoveBG_API", "")
+RemoveBG_API = os.environ.get("RemoveBG_API", "sFvSnp6KmgGi7pWDNp4sfn5P")
 
 FORCE_SUB = os.environ.get("FORCE_SUB", None)           
 
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "")
  
-log_channel = environ.get("LOG_CHANNEL")
+log_channel = environ.get("LOG_CHANNEL","-1001887302664")
 
 LOG_CHANNEL = int(log_channel) if log_channel and id_pattern.search(log_channel) else None
 
