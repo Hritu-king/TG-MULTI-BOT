@@ -2,7 +2,7 @@
 class txt(object):
     STAT = """Hello {} 👋🏻
 I'am A Multi use Bot with many usefull features.
-Eg:- Telegarph, Channel ID, Image editor etc... """
+Check ℹ️ HELP For all features of bot."""
 
     ABT = """ 
 ╔════❰ 𝙼𝚄𝙻𝚃𝙸 𝙱𝙾𝚃 ❱═❍
