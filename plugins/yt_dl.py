@@ -28,7 +28,7 @@ async def song(client, message):
         thumb_name = f'thumb{title}.jpg'
         thumb = requests.get(thumbnail, allow_redirects=True)
         open(thumb_name, 'wb').write(thumb.content)
-        performer = f"[Mᴋɴ Bᴏᴛᴢ™]" 
+        performer = f"[𝙋𝙍𝙄𝙑𝘼𝙏𝙀 𝘽𝙊𝙏𝙎]" 
         duration = results[0]["duration"]
         url_suffix = results[0]["url_suffix"]
         views = results[0]["views"]
@@ -43,7 +43,7 @@ async def song(client, message):
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
 
-        cap = "**BY›› [Pʀɪᴠᴀᴛᴇ Bᴏᴛs](https://t.me/Private_Bots)**"
+        cap = "**BY›› [𝙋𝙍𝙄𝙑𝘼𝙏𝙀 𝘽𝙊𝙏𝙎](https://t.me/Private_Bots)**"
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
